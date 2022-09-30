@@ -43,18 +43,4 @@
 
     <a href="About.php"><p class="Initials">Jonathan</p></a>
   </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </html>
