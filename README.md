@@ -1,2 +1,3 @@
 # Portfolio-Website
-Year 1 portfolio site
+
+Portfolio website made using HTML,CSS,JS and PHP
