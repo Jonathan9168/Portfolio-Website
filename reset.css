@@ -1,0 +1,9 @@
+@import url("Home.css");
+html, header, nav, ul, li, a, div, form, input, h1, body, textarea, section, article, p, img, h2, address, pre, aside, select
+{
+ margin: 0;
+ padding: 0;
+ border: 0;
+ font-size: 100%;
+ vertical-align: baseline;
+}

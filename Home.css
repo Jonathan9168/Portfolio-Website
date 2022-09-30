@@ -1,0 +1,581 @@
+/*General Syling for all HTML pages*/
+html
+{
+  font-family: sans-serif;
+  background-image: url('1.jpg');
+  background-size: cover;
+  color: white;
+  scroll-behavior: smooth;
+}
+
+body
+{
+  color: white;
+  overflow-x: hidden;
+}
+
+a
+{
+  text-decoration: none;
+}
+
+/*General Header navbar Sytling*/
+header ul
+{
+  padding: 0;
+  margin: 0;
+  background-color: #383C3C;
+  overflow: hidden;
+  list-style-type: none;
+}
+
+header ul li
+{
+   float: left;
+}
+
+header ul li a
+{
+  display: block;
+  color: #dddddd;
+  text-decoration: none;
+  text-align: center;
+  padding: 15pt;
+}
+
+/*Sytling navbar text on hover*/
+.info a:hover
+{
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin: 2pt;
+  padding: 10pt;
+}
+
+/*Positioning logos within navbar*/
+.logos
+{
+  float: right;
+}
+
+/*Styling for logos in header*/
+.yt
+{
+  height: 50px;
+  width: 100px;
+  float: right;
+  margin-top: -15%;
+}
+
+.git
+{
+    height: 40px;
+    width: 40px;
+    float: right;
+    margin-top: -25%;
+}
+
+/*Home page Sytle Rules*/
+
+/*Stling name on homepage*/
+.Initials
+{
+  text-align: center;
+  font-size: 600%;
+  margin-top: 15%;
+  color: #fff;
+  -webkit-background-clip: text;
+  box-shadow: 10px 5px 10px 5px black;
+  transition-duration:0.6s ease;
+  transition: 0.6s;
+  animation: test2 1s;
+  position: relative;
+}
+
+.Initials:hover
+{
+  transform: translateY(15px);
+  transition: .6s ease;
+}
+
+/*About Me page Sytle Rules*/
+
+/*About Me Page content div Sytling*/
+.content
+{
+  background-color:  #383C3C;
+  opacity: inherit;
+  margin: 25%;
+  margin-top: 10%;
+  padding: 3%;
+  border-radius: 30px;
+  box-shadow: 20px 20px 50px 15px black;
+}
+
+/*About me page image styling*/
+.me
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -20%;
+  margin-top: -10%;
+  filter: blur(5px);
+  transition: 0.5s ease;
+}
+
+.me:hover
+{
+  filter: blur(0px);
+}
+
+/*About me section individual div styling*/
+.AboutMe
+{
+    text-align: center;
+    margin: 15%;
+    margin-top: 6%;
+    border-bottom: 1px solid white;
+}
+
+.AboutMe h1
+{
+    font-size: 200%;
+    margin-bottom: 4%;
+    margin-top: 6%;
+    text-decoration: underline;
+}
+
+.AboutMe p
+{
+  margin-bottom: 3%;
+}
+
+/*Education section individual div styling*/
+#SE
+{
+    animation: fadein 6s;
+}
+
+.Education
+{
+    margin: 15%;
+    margin-top: -12%;
+    border-bottom: 1px solid white;
+    animation: fadein 4s;
+}
+
+.Education h1
+{
+    text-align:center;
+    font-size: 200%;
+    margin-bottom: 4%;
+    margin-top: 6%;
+    text-decoration: underline;
+  }
+
+.Education p
+{
+  margin-bottom: 3%;
+}
+
+.Education ul
+{
+  margin-left: 5%;
+  margin-bottom: 4%;
+}
+
+.Education li
+{
+  margin-bottom: 1%;
+}
+
+/*Contact section individual div styling*/
+.Contact
+{
+    text-align: center;
+    margin: 15%;
+    margin-top: -12%;
+    border-bottom: 1px solid white;
+    animation: fadein 8s;
+}
+
+.Contact h1
+{
+    font-size: 200%;
+    margin-bottom: 3%;
+    margin-top: 6%;
+    text-decoration: underline;
+}
+
+.Contact p
+{
+  margin-bottom: 3%;
+}
+
+.Contact a
+{
+  text-decoration: none;
+  color: white;
+}
+
+.Contact address
+{
+  margin-bottom: 2%;
+}
+
+/*Portfolio page Syle Rules*/
+
+/*Animation Syling for project 1 image*/
+.proj1
+{
+    animation: fadein 4s;
+    animation-name: test;
+    animation-timing-function: ease-in;
+    animation: test 5s;
+    position: relative;
+    animation-fill-mode: forwards;
+    z-index: 1;
+}
+
+.proj1 figcaption
+{
+  text-align: justify;
+  margin-left: 6%;
+  margin-top: 1%;
+  position: relative;
+  font-style: oblique;
+}
+
+/*Adventure game image styling*/
+.adv
+{
+  width: 500px;
+  height: 400px;
+  margin-top: 5%;
+  box-shadow: -10px 10px 5px black;
+}
+
+.adv:hover
+{
+  -webkit-transform:scale(1.3);
+  transform:scale(1.3);
+}
+
+/*Syling for project 2 embedded text*/
+.proj2
+{
+    animation: test 5s;
+    position: relative;
+    animation-fill-mode: forwards;
+    z-index: -1;
+}
+
+.proj2 figcaption
+{
+  text-align: justify;
+  margin-left: 7%;
+  position: relative;
+  font-style: oblique;
+  z-index: 1;
+}
+
+pre, embed
+{
+  color: white;
+}
+
+/*Styling for div that YouTube video is in*/
+.box
+{
+  margin-left: 45%;
+  margin-top: -58%;
+  position: relative;
+  animation: test 5s;
+  box-shadow: 20px 20px 50px 15px black;
+  animation-fill-mode: forwards;
+  z-index: 2;
+}
+
+/*Download segment animation styling*/
+.downloads
+{
+  text-align: center;
+  font-size: 50px;
+  height: 300px;
+  width: 800px;
+  margin-left: 45%;
+  margin-top: 5%;
+  animation: test 5s;
+  position: relative;
+  animation-fill-mode: forwards;
+}
+
+.downloads h1
+{
+  text-decoration: underline;
+}
+
+/*Styling download buttons*/
+.btn1, .btn2, .btn3
+{
+  padding: 10px 25px 8px;
+  color: #999;
+  background-color: #373737;
+  font-size:16px;
+  border:1px solid #0164a5;
+  border-radius:5px;
+  margin-top:10px;
+  cursor:pointer;
+  margin: 5%;
+  z-index: 5;
+}
+
+/*Login page Sytle Rules*/
+
+.LoginForm
+{
+  margin-top: 12.5%;
+}
+
+.LoginForm h1
+{
+  color: #dddddd;
+  font-size: 200%;
+}
+
+/*Addpost page Style Rules*/
+
+/*Addpost form styling*/
+.Entry
+{
+  background-color: #383C3C;
+  margin-top:3%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 5%;
+  color: white;
+  border: 1px solid grey;
+  border-radius: 10px;
+  box-shadow: 20px 20px 50px 15px black;
+}
+
+.Entry h1
+{
+  font-size: 3em;
+  text-decoration: underline;
+}
+
+.Entry input[type='text']
+{
+  width: 100%;
+}
+
+/*Contextual text area style rule for Entry form*/
+.Entry textarea
+{
+  resize: none;
+  width: 100%;
+}
+
+/*Styling for registration form*/
+.RegistrationForm input[type='text']
+{
+  width: 200px;
+}
+
+.RegistrationForm
+{
+  background-color: #383C3C;
+  margin-top:3%;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding: 5%;
+  color: white;
+  border: 1px solid grey;
+  border-radius: 10px;
+  box-shadow: 20px 20px 50px 15px black;
+}
+
+.RegistrationForm h1
+{
+  font-size: 200%;
+}
+
+/*Button Styling for Post and Clear*/
+.b1
+{
+  text-align: center;
+  margin-right: 5%;
+  width: 15%;
+}
+
+.b2
+{
+  text-align: center;
+  width: 15%;
+}
+
+/*Styling for Blog page*/
+
+.Blogs
+{
+  margin: 10%;
+  margin-top: 5%;
+}
+
+.Main
+{
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 5%;
+  font-size: 5em;
+}
+
+.blog
+{
+  margin-top: 5%;
+  animation: test1 1.5s;
+  position: relative;
+}
+
+.blog p
+{
+  border-bottom: 1px solid white;
+}
+
+.blog h3
+{
+  margin-bottom: 5%;
+}
+
+.blog h2
+{
+  margin-bottom: 4%;
+  float: right;
+}
+
+/*Styling for input fields like email,text and passwords*/
+input[type='text'],input[type='email'],input[type='password']
+{
+width: 200px;
+border-radius: 2px;
+border: 1px solid #CCC;
+padding: 10px;
+color: #333;
+font-size:14px;
+margin-top:10px;
+}
+
+.form
+{
+  text-align: center;
+  margin-top: 15%;
+}
+
+.form a
+{
+  text-decoration: none;
+  color: grey;
+}
+
+/*Preview styling*/
+#prev
+{
+  margin-top:3%;
+  margin-left: 10%;
+  margin-right: 10%;
+  flex-direction: column-reverse;
+  display: flex;
+}
+
+/*About Me Page content div Sytling*/
+.content1
+{
+  background-color: #383C3C;
+  margin-top:3%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 2%;
+  color: white;
+  border: 1px solid grey;
+  border-radius: 10px;
+  box-shadow: 20px 20px 50px 15px black;
+}
+
+.Main1
+{
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 3%;
+  font-size: 3em;
+}
+
+select
+{
+  width: 180px;
+  background-color: #373737;
+  color: white;
+  border:1px solid #0164a5;
+  cursor:pointer;
+  font-size:16px;
+  padding: 10px 25px 8px;
+}
+
+select > option
+{
+  background-color: #373737;
+  color: white;
+}
+
+/*Styling for submit and reset buttons*/
+input[type='submit'],input[type='reset'],input[type='button']
+{
+	padding: 10px 25px 8px;
+  color: #999;
+  background-color: #373737;
+  font-size:16px;
+  border:1px solid #0164a5;
+  border-radius:5px;
+	margin-top:10px;
+	cursor:pointer;
+}
+
+/*Styling for submit and reset buttons on hover*/
+input[type='submit']:hover, input[type='reset']:hover , input[type='button']:hover,.btn1:hover, .btn2:hover, .btn3:hover
+{
+	background-color: white;
+  transition: 2s ease;
+}
+
+/*Appling fade in animation rules to a variety of classes and semantic elements*/
+.LoginForm , header, img, .Entry, .AboutMe, .content, .Main, .RegistrationForm
+{
+    animation: fadein 2s;
+}
+
+/*Animation Rules*/
+@keyframes test
+{
+  from {left: 0px; opacity: 0;}
+  to {left: 100px; opacity: 1;}
+}
+
+@keyframes test1
+{
+  from {left: -100px; opacity: 0;}
+  to {left: 0px; opacity: 1;}
+}
+
+@keyframes test2
+{
+  from {left: -100px; opacity: 0;}
+  to {left: 0px; opacity: 1;}
+}
+
+@keyframes fadein
+{
+  from {opacity: 0; }
+  to {opacity: 1; }
+}
