@@ -52,7 +52,6 @@
           <p>
             I currently study Computer Science. I am interested in PC hardware; content creation; fitness and football.
             Finding ways to make things more efficient motivates me and excites me.
-            I hope to work for one of the major consumer CPU/GPU brands e.g. (AMD, NVIDIA, INTEL).
           </p>
         </section>
       </article>
